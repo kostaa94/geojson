@@ -1,0 +1,196 @@
+{
+   "status": "Refunded",
+   "orderId": "74215951-228949311-110585172",
+   "currency": "RUB",
+   "payments": [{
+      "shops": [{
+         "name": "KFC ЖД Вокзал Самара",
+         "amount": 119700,
+         "shopId": "74215951",
+         "providerShopCode": "325650"
+      }, {
+         "name": "Независимые логисты",
+         "amount": 16900,
+         "shopId": "master-delivery",
+         "providerShopCode": "434190"
+      }],
+      "amount": 136600,
+      "status": "Refunded",
+      "channel": "mobile",
+      "options": {
+         "transactionInfo": null,
+         "transactionStatus": "0",
+         "transactionCardCode": null
+      },
+      "orderId": "74215951-228949311-110585172",
+      "refunds": [{
+         "shops": [{
+            "name": "KFC ЖД Вокзал Самара",
+            "amount": 17900,
+            "shopId": "74215951",
+            "providerShopCode": "325650"
+         }],
+         "amount": 17900,
+         "status": "Partial_Refunded",
+         "refundId": "cdfafe8e-a7ee-4df0-ad7f-e77ffb319c8c",
+         "createdAt": "2022-07-12T08:10:57.3419308Z"
+      }, {
+         "shops": [{
+            "amount": 101800,
+            "shopId": "74215951",
+            "providerShopCode": "325650"
+         }, {
+            "amount": 16900,
+            "shopId": "master-delivery",
+            "providerShopCode": "434190"
+         }],
+         "amount": 118700,
+         "status": "Refunded",
+         "refundId": "278fd653-cbe5-49e3-bf18-e843f41e57b2",
+         "createdAt": "2022-07-12T08:16:34.7142926Z"
+      }],
+      "storeId": "74215951",
+      "platform": "card_process",
+      "createdAt": "2022-06-26T08:12:44.844298Z",
+      "paidItems": [{
+         "name": "Сандерс Комбо для двоих",
+         "type": "Fiscal",
+         "eaN13": "",
+         "level": 0,
+         "price": 83900,
+         "amount": 83900,
+         "taxType": "Vat20",
+         "discount": 0,
+         "quantity": 1.0,
+         "shopCode": "10240879",
+         "measurement": ""
+      }, {
+         "name": "Твистер Оригинальный",
+         "type": "Fiscal",
+         "eaN13": "",
+         "level": 0,
+         "price": 17900,
+         "amount": 17900,
+         "taxType": "Vat20",
+         "discount": 0,
+         "quantity": 1.0,
+         "shopCode": "1000129",
+         "measurement": ""
+      }, {
+         "name": "3 Оригинальных ножки",
+         "type": "Fiscal",
+         "eaN13": "",
+         "level": 0,
+         "price": 17900,
+         "amount": 17900,
+         "taxType": "Vat20",
+         "discount": 0,
+         "quantity": 1.0,
+         "shopCode": "1027782",
+         "measurement": ""
+      }],
+      "paymentId": "d2ec3d8a-8ec7-49fa-850d-ccb685bdd0a1",
+      "timestamp": "4254041588",
+      "updatedAt": "2022-07-12T08:16:34.714759Z",
+      "checkoutId": 110585172,
+      "customerId": "2dbf2bd3-b50c-47c1-962b-048dece83d82",
+      "paidAmount": 136600,
+      "digitalOnly": true,
+      "paymentType": "Order",
+      "refundItems": [{
+         "name": "3 шт Куриные ножки ОРИГ",
+         "type": "Fiscal",
+         "level": 0,
+         "price": 17900,
+         "amount": 17900,
+         "taxType": "Vat20",
+         "discount": 0,
+         "quantity": 1.0,
+         "shopCode": "74215951"
+      }, {
+         "type": "Fiscal",
+         "level": 0,
+         "price": 101800,
+         "amount": 101800,
+         "taxType": "Vat20",
+         "discount": 0,
+         "quantity": 1.0
+      }, {
+         "type": "Fiscal",
+         "level": 0,
+         "price": 16900,
+         "amount": 16900,
+         "taxType": "Vat20",
+         "discount": 0,
+         "quantity": 1.0
+      }],
+      "deliveryType": "Delivery",
+      "needRedirect": false,
+      "refundAmount": 136600,
+      "transactions": [{
+         "amount": 136600,
+         "status": "Authorized",
+         "createdAt": "2022-06-26T08:12:45.3881826Z",
+         "errorCode": "0",
+         "transactionId": "50dec0d2-949f-48ef-af16-2a40316cfe27"
+      }, {
+         "amount": 136600,
+         "status": "Authorized",
+         "createdAt": "2022-06-26T08:12:45.4612214Z",
+         "transactionId": "003d24ae-efae-42c1-b456-572f14bed38c"
+      }, {
+         "amount": 136600,
+         "status": "Confirmed",
+         "createdAt": "2022-06-26T11:19:34.6121702Z",
+         "errorCode": "0",
+         "transactionId": "aa84ae72-3d56-40fa-a6f3-02976d23bf86"
+      }, {
+         "amount": 136600,
+         "status": "Confirmed",
+         "createdAt": "2022-06-26T11:19:34.6808913Z",
+         "transactionId": "4fafd931-9d2a-4c1e-b2c0-2023e3690988"
+      }, {
+         "amount": 17900,
+         "status": "Partial_Refunded",
+         "createdAt": "2022-07-12T08:10:57.34213Z",
+         "errorCode": "0",
+         "transactionId": "0cf2069b-399f-4de3-9624-0d5dc5b8e3ab"
+      }, {
+         "amount": 17900,
+         "status": "Partial_Refunded",
+         "createdAt": "2022-07-12T08:11:04.4558463Z",
+         "transactionId": "904cebde-7c5a-4273-8722-af6f072e02cc"
+      }, {
+         "amount": 118700,
+         "status": "Refunded",
+         "createdAt": "2022-07-12T08:16:34.714679Z",
+         "errorCode": "0",
+         "transactionId": "53f91999-502e-4638-97aa-12e235f87f49"
+      }],
+      "paymentOption": {
+         "methodId": "158988223",
+         "methodName": "553691******7600",
+         "methodType": "card",
+         "providerId": "tinkoff",
+         "providerName": "Тинькофф",
+         "methodOptions": {
+            "pan": "553691******7600",
+            "cardType": "mastercard",
+            "cardStatus": "active",
+            "cardTypeName": "MasterCard",
+            "expirationDate": "1229"
+         }
+      },
+      "twoStepPayment": true,
+      "deliveryAgentId": "master-delivery",
+      "canPartialRefund": true,
+      "checkoutUniqueId": "8d272de6-bac5-4766-800a-296352136f13",
+      "providerPaymentId": "1461915305",
+      "requiresFiscalization": false
+   }],
+   "createdAt": "2022-06-26T08:12:44.7025842Z",
+   "updatedAt": "2022-06-26T08:12:44.7025844Z",
+   "paidAmount": 0,
+   "totalAmount": 136600,
+   "refundAmount": 0
+}
